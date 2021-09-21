@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface UserMapper {
-    @Insert({"insert into User(pet_name, phone, password) values('${User.pet_name}','&{User.phone}'}','&{User.password}')"})
-    int add(@Param("User") User user);
+    @Insert({"insert into User(pet_name, phone, password) values('${user.pet_name}','&{user.phone}'}','&{user.password}')"})
+    int add(@Param("uer") User user);
 }

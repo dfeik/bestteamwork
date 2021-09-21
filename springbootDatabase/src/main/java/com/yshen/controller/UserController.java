@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @Autowired
     UserServiceImpl userServiceImpl;
-    @RequestMapping("buyer")
+    @RequestMapping("")
     public String json(User user) {
         System.out.println(user);
         int u = userServiceImpl.addUser(user.getPet_name(), user.getPhone(), user.getPassword());
