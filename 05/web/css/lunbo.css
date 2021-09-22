@@ -1,0 +1,44 @@
+.focus-menu{
+    height:270px;
+    width:100%;
+    position:relative;
+    overflow:hidden;
+}
+
+
+.focus-menu .pic .focus-item{
+    top:0;
+    left:0;
+    position:absolute;
+    height:auto;
+    width:100%;
+}
+
+.focus-menu .tab{
+    position:absolute;
+    margin-left:50%;
+    bottom: 0px;
+    width:100px;
+    left:-70px;
+    height:30px;
+    border-radius:20px;
+    margin-bottom:0;
+}
+
+
+.focus-menu .tab .tab-item{
+    border-radius:50%;
+    margin:10px;
+    float:left;
+    background-color: #ccc;
+    width:10px;
+    height:10px;
+    
+}
+
+
+.focus-menu .tab .on{
+    background-color:#706e6a;
+}
+
+li {list-style-type:none;}
