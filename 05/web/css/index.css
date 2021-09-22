@@ -1,0 +1,367 @@
+html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+/* 头部 */
+#head {
+	height: 10%;
+	position: relative;
+	background: whitesmoke;
+	/* border: 1px solid red; */
+}
+
+/* Logo部分 */
+#Logo {
+	height: 100%;
+	width: 15%;
+	position: absolute;
+	margin-left: 5%;
+	/* border: 1px solid blue; */
+}
+
+#Logo img {
+	height: 100%;
+	width: 100%;
+}
+
+/* 超链接部分 */
+#Super_link {
+	height: 100%;
+	width: 60%;
+	position: absolute;
+	right: 0;
+	/* border: 1px solid blue; */
+}
+
+#head_Super_link {
+	position: relative;
+	width:800px;
+	height: 50%;
+	/* border: 1px solid red; */
+	margin: 0.9% 0px;
+
+}
+
+#head_Super_link div {
+	position: relative;
+	float: left;
+	margin: 0px 5px;
+}
+
+#head_Super_link .login_or_reg{
+	display: none;
+}
+/*显示昵称*/
+#head_Super_link .login_or_reg #pet_name{
+
+}
+/*注销*/
+#head_Super_link .login_or_reg #log_off{
+	color: red;
+}
+#head_Super_link img {
+	height: 20px;
+	width: 20px;
+}
+
+#head_Super_link a {
+	text-decoration: none;
+	color: cadetblue;
+}
+#head_Super_link #login{
+	color:red;
+}
+/* 查找 */
+#search{
+	position: relative;
+	width: 100%;
+	height: 20%;
+	/* border: 1px solid red; */
+}
+#search_input{
+	position: relative;
+	width: 660px;
+	height:50px;
+	margin-left:333px;
+	top:30%;
+}
+#search_input #input{
+	position: relative;
+	float: left;
+	padding: 0.1%;
+	width: 88%;
+	height: 89%;
+	border: 3px solid rgb(253, 142, 15);
+	border-radius:25px;
+}
+#search_input input{
+	margin-left:6%;
+	width: 75%;
+	height:89%;
+	border: 0;
+	font-family: 隶书;
+	font-size: 15px;
+	outline: none;
+	color:gray;
+}
+#search_input #btn{
+	position: relative;
+	float: left;
+	width: 10%;
+	height: 96%;
+	text-align: center;
+	padding-top: 0.5%;
+	cursor: pointer;
+	/* border: 1px solid black; */
+}
+#search_input #btn img{
+	width: 55%;
+	height: 90%;
+}
+
+/* select_advertise */
+#select_advertise{
+	position: relative;
+	width: 100%;
+	height: 75%;
+	/* border: 1px solid red; */
+}
+
+
+#select_advertise #context{
+	position: relative;
+	margin:0 auto;
+	width: 1128px;
+	height: 630px;
+}
+/* 整体布局 */
+#select_advertise #leftbox{
+	margin-left:15px;
+	margin-right:10px;
+	position: relative;
+	float: left;
+	width: 200px;
+	height:510px;
+	border-radius:25px;
+	/* border: 1px solid blue; */
+}
+#select_advertise #middle{
+	margin-left:9px;
+	margin-right:17px;
+	position: relative;
+	float: left;
+	width: 600px;
+	height:590px;
+	border-radius: 25px;
+	/* background: #0000FF; */
+	/* border: 1px solid yellow; */
+}
+#select_advertise #right{
+	position: relative;
+	float: left;
+	width: 210px;
+	height:645px;
+	/* border: 1px solid green; */
+}
+
+#select_advertise #right img{
+    width: 210px;
+	height:645px;
+	border-radius: 25px;
+} 
+
+.nav1{
+	color:#fff;
+	background-color:rgb(243, 84, 10)
+}
+#approachgou{
+	width:160px;
+	height:48px;
+	border-radius:5px;
+	text-align: center;
+	line-height:48px;
+}
+.hide{
+    display: none;
+}
+.navchecked{
+	display:block;
+}
+
+/* left */
+/* #select_advertise #left div{
+	width: 77%;
+	height: 40px;
+	line-height:50px;
+	padding: 0.8% 10%;
+	cursor: pointer;
+	border-radius: 5px;
+	/* border: 1px solid red; */
+/* }
+#select_advertise #left #classify{
+
+	padding: 0 0;
+	width: 100%;
+	height: 10%;
+	font-family: 宋体;
+	font-size: 20px;
+	text-align: center;
+	background:rgb(253, 82, 15);
+	color: white;
+} */ 
+/* middle */
+#select_advertise #middle #up{
+	position: relative;
+	width: 100%;
+	height: 60%;
+	overflow: hidden;
+	border-radius: 25px;
+	/* border: 1px solid blue; */
+}
+#select_advertise #middle #up img{
+	width: 100%;
+	height: 100%;
+}
+#select_advertise #middle #down{
+	margin-top:15px;
+	position: relative;
+	width: 100%;
+	/* border: 1px solid yellow; */
+}
+
+
+/* 小箱子从这里开始改 */
+.item-box{
+    margin-left:10px;
+    float:left;
+    text-align: center;
+    width:180px;
+    height:190px;
+}
+.item-pic{
+    width:160px;
+    height:180px;
+    border-radius:25px;
+    background-color:rgb(204, 156, 138);
+}
+.item-font{
+    position:relative;
+    margin:0 auto;
+    width:150px;
+    height:40px;
+}
+
+.item-title{
+    position:absolute;
+    margin-top:6px;
+    float:left;
+    background-color: cornsilk;
+    font-size:20px;
+    font-weight:600;
+    color:black;
+}
+.item-price{
+    position:absoluite;
+    margin-left:100px;
+    height:40px;
+    line-height: 40px;
+    color: rgb(245, 52, 18);
+    font-weight:500;
+    font-size:20px;
+
+}
+.item-text{
+    margin:0 auto;
+    width:160px;
+    height:42px;
+    overflow: hidden;
+    color:black;
+	font-size:9px;
+}
+
+
+/* #select_advertise #middle #down div{
+	position: relative;
+	float: left;
+	width: 24.5%;
+	height: 100%;
+	/* border: 1px solid bisque; */
+/* } */
+
+
+/* right */
+
+
+/* 结束 */
+
+
+ /* second_select */
+ #second_select{
+	position: relative;
+	width: 1128px;
+	height: 630px;
+	margin:0 auto;
+	margin-top:12px;
+	/* background: whitesmoke; */
+	/* border: 1px solid hotpink; */
+ }
+ #second_select #second_select_head{
+	height: 8%;
+	width: 100%;
+	padding: 0;
+ }
+ #second_select #second_select_head img{
+	 width: 8%;
+	 height: 90%;
+ }
+ #second_select #second_select_line{
+	 height: 0;
+	 width: 100%;
+	 padding: 0;
+	 border: 2px solid black;
+ }
+ #second_select > div{
+	 position: relative;
+	 float: left;
+	 width: 15.9%;
+	 height: 44%;
+	 padding: 0.3%;
+	 /* border: 1px solid navajowhite; */
+ }
+ #second_select .photo{
+	 position: relative;
+	 width: 100%;
+	 height: 70%;
+	 /* border: 1px solid red; */
+ }
+ #second_select .photo img{
+	 width: 100%;
+	 height: 100%;
+ }
+ #second_select .message{
+	 position: relative;
+	 text-align: center;
+	 font-family:小篆;
+	 width: 100%;
+	 height: 30%;
+	 /* border: 1px solid navajowhite; */
+ }
+ #second_select .now_price{
+	 color: red;
+ }
+ #second_select .original_price{
+	 color: gray;
+	 text-decoration: line-through;
+ }
+ 
+
+ 
